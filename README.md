@@ -78,6 +78,8 @@ Talabat.Solution/
 git clone https://github.com/abdoyasser15/Talabat.Solution.git
 cd Talabat.Solution
 ```
+
+
 2. Set up configuration
 ```bash
 Edit
