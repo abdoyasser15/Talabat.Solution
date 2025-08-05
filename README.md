@@ -22,4 +22,8 @@ This project simulates the backend system of a Talabat-like platform. It allows 
 ---
 
 ## 🧱 Project Structure
-
+Talabat.Solution/
+├── Talabat.APIs         → API Layer (Controllers, Middleware)
+├── Talabat.Core         → Entities, Interfaces, Specifications
+├── Talabat.Repository   → Data Access Layer (EF + Configs)
+├── Talabat.Service      → Business Logic
