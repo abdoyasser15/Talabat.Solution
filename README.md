@@ -77,7 +77,9 @@ Talabat.Solution/
 ```bash
 git clone https://github.com/abdoyasser15/Talabat.Solution.git
 cd Talabat.Solution
-
+```
+2. Set up configuration
+```bash
 Edit
 appsettings.json
 and update:
@@ -88,6 +90,8 @@ and update:
 "Jwt": {
   "Key": "your-jwt-secret-key"
 }
-        
 dotnet ef database update
 dotnet run
+```
+✍️ Author
+Abdallah Yasser
