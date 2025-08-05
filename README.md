@@ -29,7 +29,18 @@ Talabat.Solution/
 ├── Talabat.Repository   → Data Access Layer (EF + Configs)
 ├── Talabat.Service      → Business Logic
 
-
+---
+## Project Description
+Talabat.Solution (E-Commerce Backend Platform)
+Developed a fully functional backend Web API for a food delivery e-commerce platform, handling products, baskets, orders, users, and payments.
+Followed Clean Architecture with layered separation: API, Core, Repository, and Service to enhance maintainability and scalability.
+Built secure JWT-based authentication and role-based authorization using ASP.NET Core Identity to manage access for different user types.
+Designed and developed RESTful APIs for user authentication, basket operations, order processing, and payment integration.
+Integrated Stripe API to manage payment intents and simulate checkout functionality.
+Utilized Entity Framework Core and LINQ for data access, tracking, and querying.
+Applied OOP, SOLID principles, and patterns like Repository and Unit of Work to ensure code cleanliness and separation of concerns.
+Documented and tested APIs using Swagger (OpenAPI) for easier collaboration and validation.
+Technologies Used: ASP.NET Core Web API, Entity Framework Core, SQL Server, LINQ, Identity, Stripe API, JWT, Swagger, Repository & Unit of Work Patterns, Clean Architecture.
 ---
 
 ## 🔗 API Endpoints
