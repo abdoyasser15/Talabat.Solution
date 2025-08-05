@@ -80,7 +80,7 @@ cd Talabat.Solution
 ```
 
 
-2. Set up configuration
+### 2. Set up configuration
 ```bash
 Edit
 appsettings.json
