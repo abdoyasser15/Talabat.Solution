@@ -69,3 +69,12 @@ Talabat.Solution/
 
 - Token-based (JWT)
 - Use Bearer token in headers:
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/abdoyasser15/Talabat.Solution.git
+cd Talabat.Solution
+
