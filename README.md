@@ -22,8 +22,57 @@ This project simulates the backend system of a Talabat-like platform. It allows 
 ---
 
 ## 🧱 Project Structure
+
 Talabat.Solution/
 ├── Talabat.APIs         → API Layer (Controllers, Middleware)
 ├── Talabat.Core         → Entities, Interfaces, Specifications
 ├── Talabat.Repository   → Data Access Layer (EF + Configs)
 ├── Talabat.Service      → Business Logic
+
+
+---
+
+## 🔗 API Endpoints
+
+### 🔐 Account
+| Method | Endpoint                    | Description                          |
+|--------|-----------------------------|--------------------------------------|
+| POST   | `/api/Account/login`        | User login and returns JWT token     |
+| POST   | `/api/Account/register`     | Register a new user                  |
+| GET    | `/api/Account`              | Get current authenticated user       |
+| GET    | `/api/Account/address`      | Get user address                     |
+| PUT    | `/api/Account/address`      | Update user address                  |
+| GET    | `/api/Account/emailExist`   | Check if email already exists        |
+
+### 🛒 Basket
+| Method | Endpoint         | Description                         |
+|--------|------------------|-------------------------------------|
+| GET    | `/api/Basket`    | Get user's current basket           |
+| POST   | `/api/Basket`    | Update/Add basket items             |
+| DELETE | `/api/Basket`    | Clear the basket                    |
+
+### 📦 Orders
+| Method | Endpoint                      | Description                        |
+|--------|-------------------------------|------------------------------------|
+| POST   | `/api/Orders`                 | Create new order                   |
+| GET    | `/api/Orders`                 | Get user’s order history           |
+| GET    | `/api/Orders/{id}`            | Get order details by ID            |
+| GET    | `/api/Orders/deliveryMethod`  | Get available delivery methods     |
+
+### 💳 Payment
+| Method | Endpoint                    | Description                              |
+|--------|-----------------------------|------------------------------------------|
+| POST   | `/api/Payment/{basketId}`   | Create/update Stripe payment intent      |
+
+### ⚠️ Buggy (Testing)
+| Method | Endpoint                   | Description             |
+|--------|----------------------------|-------------------------|
+| GET    | `/api/Buggy/server-error`  | Simulate 500 error      |
+| GET    | `/api/Buggy/not-found`     | Simulate 404 error      |
+
+---
+
+## 🛡️ Authentication
+
+- Token-based (JWT)
+- Use Bearer token in headers:
