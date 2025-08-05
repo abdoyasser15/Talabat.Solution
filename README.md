@@ -78,3 +78,16 @@ Talabat.Solution/
 git clone https://github.com/abdoyasser15/Talabat.Solution.git
 cd Talabat.Solution
 
+Edit
+appsettings.json
+and update:
+
+"ConnectionStrings": {
+  "DefaultConnection": "your-sql-connection"
+},
+"Jwt": {
+  "Key": "your-jwt-secret-key"
+}
+        
+dotnet ef database update
+dotnet run
