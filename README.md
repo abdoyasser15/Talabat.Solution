@@ -30,9 +30,9 @@ Talabat.Solution/
 ├── Talabat.Service      → Business Logic
 
 ---
-### Talabat.Solution (E-Commerce Backend Platform)
+### 📦 Talabat.Solution (E-Commerce Backend Platform)
 
-- Developed a fully functional backend Web API for a food delivery e-commerce platform, handling products, baskets, orders, users, and payments.
+-  Developed a fully functional backend Web API for a food delivery e-commerce platform, handling products, baskets, orders, users, and payments.
 - Followed **Clean Architecture** with layered separation: API, Core, Repository, and Service to enhance maintainability and scalability.
 - Built secure **JWT-based authentication** and **role-based authorization** using ASP.NET Core Identity to manage access for different user types.
 - Designed and developed **RESTful APIs** for user authentication, basket operations, order processing, and payment integration.
