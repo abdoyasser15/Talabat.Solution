@@ -1,5 +1,5 @@
 # Talabat.Solution 🍔  
-An ASP.NET Core Web API for a food delivery e-commerce system.
+An ASP.NET Core Web API for a Product delivery e-commerce system.
 
 ---
 
