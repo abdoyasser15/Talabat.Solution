@@ -63,13 +63,6 @@ Talabat.Solution/
 | Method | Endpoint                    | Description                              |
 |--------|-----------------------------|------------------------------------------|
 | POST   | `/api/Payment/{basketId}`   | Create/update Stripe payment intent      |
-
-### ⚠️ Buggy (Testing)
-| Method | Endpoint                   | Description             |
-|--------|----------------------------|-------------------------|
-| GET    | `/api/Buggy/server-error`  | Simulate 500 error      |
-| GET    | `/api/Buggy/not-found`     | Simulate 404 error      |
-
 ---
 
 ## 🛡️ Authentication
